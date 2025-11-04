@@ -27,12 +27,30 @@ I’m especially interested in **AI for autonomous systems**, **computer vision*
 
 ## 🚀 Featured Work  
 
-🔹 **Drone-Based Computer Vision for Forensic Analysis**  
-Developed a YOLOv8-L model trained on 6,000+ aerial images with real-time inference (~20 FPS) on RTX 3060 hardware.  
-The model supports live video detection via RTMP streaming and focuses on human detection and scene understanding for forensic analysis.
+🔹 **Flask-Based Object Detection Web Application (Dockerized)**  
+Designed and deployed a fully containerized **object detection web platform** using **Flask** and **Docker Compose**.  
+The system performs image uploads, inference through a pre-trained **YOLO-based model**, and displays bounding boxes with confidence metrics in real time.  
+Metrics such as detection counts, per-class averages, and inference speed are automatically computed and visualized through an integrated dashboard.  
+This project demonstrates strong experience in **model deployment**, **REST API design**, and **Docker-based orchestration**.
 
-🔹 **Mathematical Foundations of Learning**  
-Conducted in-depth research on optimization, generalization, and the theoretical underpinnings of machine learning algorithms during my MSc studies.  
+🔹 **Drone-Based Computer Vision for Forensic Analysis**  
+Developed a custom-trained **YOLOv8-L model** on over **6,000 aerial drone images** for real-time human detection and scene analysis.  
+The system runs inference at ~20 FPS on RTX 3060 hardware and supports **live RTMP video streaming**, enabling on-the-fly detection for forensic and safety use cases.  
+This project highlights advanced knowledge in **computer vision**, **dataset curation**, and **edge AI performance optimization**.
+
+🔹 **Automated Dashboard Generation using Machine Learning**  
+Created as part of my MSc research at **USTOMB**, this project automates the generation of dashboards by analyzing dataset characteristics and recommending suitable chart types.  
+The backend, developed with **Flask-AppBuilder**, uses **feature importance** and **data preprocessing** techniques to select the most relevant visualizations dynamically.  
+It represents a practical application of **machine learning in data analytics automation**.
+
+🔹 **Custom Apache Superset Integration with Keycloak**  
+Extended **Apache Superset** by developing custom API endpoints to integrate **Keycloak** authentication and manage user roles.  
+This enhancement allows seamless login experiences, consistent role-based access control, and secure cookie management across multiple internal web applications.  
+The solution bridges the gap between **enterprise-level security** and **data visualization flexibility**.
+
+---
+
+💼 *Additional projects include various AI-driven systems, full-stack web apps, and backend automation tools hosted in private repositories — covering both front-end (Angular) and back-end (Flask, FastAPI, Django) development.*
 
 ---
 
