@@ -1,56 +1,105 @@
 # 👋 Hi, I'm Ahmed Bendimered  
 
+**Applied AI & Machine Learning Engineer**  
+I design and build end-to-end intelligent systems: from data understanding and model training to APIs, dashboards, secure authentication, and production deployment.
+
+MSc graduate with hands-on experience across machine learning, computer vision, data analytics automation, backend systems, frontend integration, and infrastructure.
+
 🎓 MSc in Artificial Intelligence (Applied Machine Learning) — Liverpool John Moores University, UK (2025)  
 🎓 MSc in Artificial Intelligence — USTOMB Oran, Algeria (2024)  
-🎓 BSc in Computer Systems — USTOMB Oran, Algeria (2022)  
+🎓 BSc in Computer Systems — USTOMB Oran, Algeria (2022) 
 
 ---
 
-## 💡 About Me  
-
-I'm an Artificial Intelligence graduate with a strong foundation in the mathematics and theory behind machine learning, and a passion for applying AI to real-world problems.  
-My background bridges **computer vision, deep learning**, and **full-stack development**, combining analytical thinking with hands-on implementation.  
-
-I’m especially interested in **AI for autonomous systems**, **computer vision**, and the **deployment of intelligent applications** that can make a real-world impact.
-
----
-
-## 🧠 Technical Skills  
-
-**AI & ML:** PyTorch · TensorFlow · Scikit-Learn · YOLOv8 · OpenCV  
-**Backend:** FastAPI · Flask · Django · REST APIs  
-**Frontend:** Angular · HTML · CSS · JavaScript  
-**Tools & DevOps:** Git · Docker · Linux · NVIDIA GPUs · VS Code  
-**Other Interests:** Data Augmentation · Model Deployment · AI Ethics  
+## What I Bring
+- End-to-end ML systems, not just notebooks  
+- Strong applied ML with a production mindset  
+- Backend and API development for ML services  
+- Secure, enterprise-ready integrations  
+- Comfortable across ML, software, data, and infrastructure  
 
 ---
 
-## 🚀 Featured Work  
+## Technical Skills
 
-🔹 **Flask-Based Object Detection Web Application (Dockerized)**  
-Designed and deployed a fully containerized **object detection web platform** using **Flask** and **Docker Compose**.  
-The system performs image uploads, inference through a pre-trained **YOLO-based model**, and displays bounding boxes with confidence metrics in real time.  
-Metrics such as detection counts, per-class averages, and inference speed are automatically computed and visualized through an integrated dashboard.  
-This project demonstrates strong experience in **model deployment**, **REST API design**, and **Docker-based orchestration**.
+### Programming
+Python, TypeScript, JavaScript
 
-🔹 **Drone-Based Computer Vision for Forensic Analysis**  
-Developed a custom-trained **YOLOv8-L model** on over **6,000 aerial drone images** for real-time human detection and scene analysis.  
-The system runs inference at ~20 FPS on RTX 3060 hardware and supports **live RTMP video streaming**, enabling on-the-fly detection for forensic and safety use cases.  
-This project highlights advanced knowledge in **computer vision**, **dataset curation**, and **edge AI performance optimization**.
+### Machine Learning & AI
+TensorFlow, PyTorch, Scikit-learn, RAPIDS, cuML, CUDA-accelerated ML
 
-🔹 **Automated Dashboard Generation using Machine Learning**  
-Created as part of my MSc research at **USTOMB**, this project automates the generation of dashboards by analyzing dataset characteristics and recommending suitable chart types.  
-The backend, developed with **Flask-AppBuilder**, uses **feature importance** and **data preprocessing** techniques to select the most relevant visualizations dynamically.  
-It represents a practical application of **machine learning in data analytics automation**.
+### Data Processing & Visualization
+Pandas, NumPy, Plotly, Seaborn, Matplotlib
 
-🔹 **Custom Apache Superset Integration with Keycloak**  
-Extended **Apache Superset** by developing custom API endpoints to integrate **Keycloak** authentication and manage user roles.  
-This enhancement allows seamless login experiences, consistent role-based access control, and secure cookie management across multiple internal web applications.  
-The solution bridges the gap between **enterprise-level security** and **data visualization flexibility**.
+### Backend & APIs
+Flask, Django, Django REST Framework, FastAPI, Flask-AppBuilder
+
+### Frontend
+Angular, HTML, CSS, SCSS
+
+### Data & Analytics Platforms
+Apache Superset, automated and custom dashboarding
+
+### DevOps & Infrastructure
+Docker, Portainer, Proxmox, Linux, Git
+
+### Security & Authentication
+Keycloak, role-based access control (RBAC), secure session management
 
 ---
 
-💼 *Additional projects include various AI-driven systems, full-stack web apps, and backend automation tools hosted in private repositories — covering both front-end (Angular) and back-end (Flask, FastAPI, Django) development.*
+## Featured Work
+
+### End-to-End Wildlife Object Detection System  
+**Model Training → Deployment → Production API**
+
+Designed and implemented a complete machine learning pipeline for wildlife object detection.
+
+- Trained object detection models using TensorFlow 2  
+- Optimized inference for real-world usage  
+- Deployed models behind a backend API  
+- Containerized the system using Docker for production readiness  
+
+**Repositories:**  
+- `wildlife-object-detection-tf2` — model training and experimentation  
+- `wildlife-object-detection-api` — production API and deployment  
+
+---
+
+### Drone Human Risk Detection  
+**Applied Computer Vision | Safety-Critical Contexts**
+
+Built a computer vision system to detect humans and assess risk in drone imagery.
+
+- Object detection in aerial environments  
+- Focus on real-world constraints and deployment considerations  
+
+---
+
+### Automated Dashboard Generation using Machine Learning  
+**MSc Research Project | Data Analytics Automation**
+
+Developed a system that automatically generates dashboards by analyzing dataset characteristics and recommending appropriate visualization types.
+
+- Feature importance analysis and data preprocessing  
+- Flask-AppBuilder backend  
+- Integrated with Apache Superset  
+
+---
+
+### Enterprise Apache Superset Integration with Keycloak  
+**Backend, Security & Platform Engineering**
+
+Extended Apache Superset by developing custom API endpoints to integrate Keycloak authentication and centralized role management.
+
+- Seamless authentication across multiple internal applications  
+- Consistent role-based access control  
+- Secure cookie and session handling  
+
+---
+
+## Target Roles
+AI Engineer · Machine Learning Engineer · Applied AI Engineer
 
 ---
 
