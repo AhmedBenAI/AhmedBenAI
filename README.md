@@ -129,11 +129,6 @@ ML-driven platform that analyses dataset characteristics and automatically gener
 
 ---
 
-### 🔐 Enterprise Apache Superset + Keycloak Integration
-Custom API extension enabling Keycloak SSO and centralised RBAC across multiple internal enterprise applications. Production-deployed at Hexalogy.
-
----
-
 ### 🏪 SellWell — ERP System
 Full ERP system covering HR, payroll, stock, and accounting. Built and delivered at Hexalogy, still in active production use.
 
