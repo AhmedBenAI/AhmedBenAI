@@ -16,13 +16,13 @@
 
 ## 👋 About Me
 
-I'm a **Full-Stack AI & ML Systems Engineer** with three degrees and a track record of shipping production-grade intelligent systems — from end-to-end computer vision pipelines and RAG systems to enterprise platform integrations.
+I'm a **Full-Stack AI & ML Systems Engineer** with three degrees and a track record of shipping production-grade intelligent systems — from end-to-end computer vision pipelines and RAG applications to enterprise platform integrations.
 
-At **Hexalogy**, I built Angular frontends, designed ML-assisted scheduling systems, led DevOps on Linux/Proxmox with Keycloak and Nginx, and delivered a full ERP system still in active production use today.
+At **Hexalogy**, I built Angular frontends, designed REST APIs, led DevOps on Linux/Proxmox with Keycloak and Nginx, and delivered systems still in active production use today.
 
-My research spans **forensic drone analysis** (LJMU MSc — Distinction) and **adaptive AI dashboard generation** (USTOMB MSc). I care about the gap between notebooks and production — and I build to close it.
+My research spans **real-time computer vision for drone human risk detection** (LJMU MSc — Distinction) and **adaptive AI dashboard generation** (USTOMB MSc). I care about the gap between notebooks and production — and I build to close it.
 
-📍 Based in **Liverpool, UK** · Open to remote or relocation · 🌐 [ahmed-ai.com](https://ahmed-ai.com) — includes an AI assistant that answers questions about my experience
+📍 Based in **Liverpool, UK** · Open to remote or relocation · 🌐 [ahmed-ai.com](https://ahmed-ai.com)
 
 ---
 
@@ -45,9 +45,12 @@ My research spans **forensic drone analysis** (LJMU MSc — Distinction) and **a
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat&logo=nvidia&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
 ![RAPIDS](https://img.shields.io/badge/RAPIDS_cuML-7400FF?style=flat&logo=nvidia&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=flat&logo=yolo&logoColor=black)
 
 **Backend & APIs**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
@@ -74,83 +77,79 @@ My research spans **forensic drone analysis** (LJMU MSc — Distinction) and **a
 
 ## 🚀 Featured Projects
 
+### 🎫 TriageAI — AI Support Ticket Automation
+4-stage AI pipeline: classify ticket → retrieve knowledge base via RAG → draft response → evaluate quality. Node.js/Express backend, Angular 17 frontend, fully Dockerised.
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/AhmedBenAI/triageai-backend)
+[![Live](https://img.shields.io/badge/Live_Demo-triageai.ahmed--ai.com-black?style=flat)](https://triageai.ahmed-ai.com)
+
+---
+
+### 📚 RAG Knowledge API
+Full-stack RAG application. Upload PDFs or web pages, ask questions, get answers grounded in your documents — FastAPI backend, FAISS vector search, GPT-3.5-Turbo, Angular 17 frontend.
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/AhmedBenAI/rag-knowledge-api)
+[![Live](https://img.shields.io/badge/Live_Demo-rag--knowledge.ahmed--ai.com-black?style=flat)](https://rag-knowledge.ahmed-ai.com)
+
+---
+
+### 🚁 Real-Time Drone Human Risk Detection *(MSc Dissertation — Distinction)*
+YOLOv8 pipeline for aerial human detection and real-time forensic risk scoring (Blood, Lying, Sitting, Standing classes). mAP@0.5: 0.78 val / 0.73 test · 15–18 FPS at 640×640 · ~100ms end-to-end latency. Optimised with ONNX, TensorRT, and FP16 mixed-precision. Flask dashboard with live RTMP streaming support.
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/AhmedBenAI/drone-human-risk-detection)
+
+---
+
 ### 🦅 Wildlife Object Detection — End-to-End CV Pipeline
-Full ML lifecycle: dataset preparation → TF2 model training → optimised inference → production Docker API.
+Full ML lifecycle: custom dataset labelling → TF2 model training (SSD ResNet50 + EfficientDet D1) → Dockerised Flask + TensorFlow Serving production API.
 
 [![Model Repo](https://img.shields.io/badge/Repo-Model_Training-181717?style=flat&logo=github)](https://github.com/AhmedBenAI/wildlife-object-detection-tf2)
 [![API Repo](https://img.shields.io/badge/Repo-Production_API-181717?style=flat&logo=github)](https://github.com/AhmedBenAI/wildlife-object-detection-api)
 
 ---
 
-### 🤖 RAG Knowledge API
-Retrieval-Augmented Generation API — combines knowledge retrieval with LLM integration to deliver context-aware intelligent responses via REST endpoints.
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/AhmedBenAI/rag-knowledge-api)
-[![Live](https://img.shields.io/badge/Live_Demo-ahmed--ai.com-black?style=flat)](https://rag-knowledge.ahmed-ai.com)
-
----
-
-### 🧠 Pressure Ulcer QA — BERT + RAG
-Domain-specific clinical QA system combining BERT transformer NLP with retrieval-augmented generation for accurate answers in the healthcare wound-care domain. Academic research with published output.
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/AhmedBenAI/pressure-ulcer-qa-bert-rag)
-
----
-
-### 🚁 Forensic Drone Analysis System *(MSc Dissertation — Distinction)*
-AI-driven forensic drone system for autonomous aerial data acquisition and intelligent evidence analysis. Combines CV, ML processing, and practical engineering for aerial forensic workflows.
-
----
-
-### 🏥 TriageAI Backend
-AI-powered triage support backend — APIs and service layers managing data flow between AI components and clinical decision-making interfaces.
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/AhmedBenAI/triageai-backend)
-[![Live](https://img.shields.io/badge/Live_Demo-ahmed--ai.com-black?style=flat)](https://triageai.ahmed-ai.com)
-
----
-
-### ⚡ HIGGS RAPIDS ML Pipeline
-High-performance GPU-accelerated ML pipeline for large-scale HIGGS boson dataset analysis. Demonstrates efficient preprocessing, training, and evaluation at scale using RAPIDS cuML.
+### ⚡ GPU-Accelerated ML Pipeline — Higgs Boson Dataset
+~75× Random Forest speedup, ~10× XGBoost speedup using NVIDIA RAPIDS cuML on 11M rows. Full CPU vs GPU benchmark comparison.
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/AhmedBenAI/higgs-rapids-ml)
 
 ---
 
-### 📊 Intelligent Adaptive Dashboard System *(MSc Research — USTOMB)*
-ML-driven platform that automatically analyses dataset characteristics and generates appropriate visualisations — removing manual dashboard configuration entirely.
+### 🧠 Pressure Ulcer QA — BERT + RAG
+Fine-tuned BERT vs RAG comparison for medical QA on ~1,000 SQuAD-style pairs generated from PubMed abstracts. Evaluated with BERTScore, BLEU, and F1.
 
-- Feature importance analysis and data profiling  
-- Flask-AppBuilder backend integrated with Apache Superset  
-- Dynamically adapts visualisation type to data patterns per user
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/AhmedBenAI/pressure-ulcer-qa-bert-rag)
+
+---
+
+### 📊 Intelligent Adaptive Dashboard System *(MSc Research — USTOMB)*
+ML-driven platform that analyses dataset characteristics and automatically generates appropriate visualisations via Flask-AppBuilder and Apache Superset.
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/AhmedBenAI/DashBoard-Backend)
 
 ---
 
 ### 🔐 Enterprise Apache Superset + Keycloak Integration
-Custom API extension enabling seamless Keycloak SSO across multiple internal enterprise applications.
-
-- Centralised RBAC and role synchronisation  
-- Secure cookie and session handling  
-- Production-deployed at Hexalogy
+Custom API extension enabling Keycloak SSO and centralised RBAC across multiple internal enterprise applications. Production-deployed at Hexalogy.
 
 ---
 
-### 🏠 Dari — Real Estate Platform
-Full-stack property discovery platform for the Algerian market. Agency listings, private listings, search, and backend API.
+### 🏪 SellWell — ERP System
+Full ERP system covering HR, payroll, stock, and accounting. Built and delivered at Hexalogy, still in active production use.
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github)](https://github.com/AhmedBenAI/dari-web)
-[![Live](https://img.shields.io/badge/Live_Demo-daridz.ahmed--ai.com-black?style=flat)](https://daridz.ahmed-ai.com)
+[![Live](https://img.shields.io/badge/Live_Demo-erp.ahmed--ai.com-black?style=flat)](https://erp.ahmed-ai.com)
 
 ---
 
 ## 💼 Experience
 
-**Software Engineer & AI Systems Developer** · Hexalogy · *2023–2024*
+**Software Engineer & AI Systems Developer** · Hexalogy · *Jan 2023 – Jun 2024 · Algeria*
 
-- Built Angular + SCSS frontends integrated with Flask and Django backends  
-- Co-designed ML-assisted scheduling and route optimisation algorithms for a confidential client  
-- Led DevOps on Linux using Proxmox, Portainer, Keycloak SSO, and Nginx  
-- Delivered a complete ERP system (WinDev/HFSQL) covering HR, payroll, stock, and accounting — still in active production use  
+- Built Angular + SCSS frontends integrated with Flask, Django, and FastAPI backends
+- Engineered REST APIs underpinning core business workflows for multiple client projects
+- Integrated Keycloak SSO and RBAC into enterprise applications across multi-role user bases
+- Led DevOps on Linux using Proxmox, Portainer, Docker, and Nginx in high-availability environments
+- Built custom Apache Superset + Keycloak integration for centralised role management across internal platforms
 
 ---
 
@@ -184,7 +183,5 @@ Open to roles in the UK (Liverpool/remote) or international relocation opportuni
 **Let's build something intelligent together.**
 
 [![Portfolio](https://img.shields.io/badge/🌐_ahmed--ai.com-Visit_my_portfolio-black?style=for-the-badge)](https://ahmed-ai.com)
-
-*Try the AI assistant on my site — it can answer questions about my projects, research, and experience instantly.*
 
 </div>
